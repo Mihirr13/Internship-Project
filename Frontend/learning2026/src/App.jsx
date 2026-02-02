@@ -12,12 +12,13 @@ import { MapDemo2 } from './component/MapDemo2';
 import { MapDemo3 } from './component/MapDemo3';
 import { MapDemo4 } from './component/MapDemo4';
 import { MapDemo5 } from './component/MapDemo5';
+import { MapDemo6 } from './component/MapDemo6';
 
 function App() {
   return (
           <div>
             <HeaderComponent1></HeaderComponent1>
-            <MapDemo5></MapDemo5>
+            <MapDemo6></MapDemo6>
             <FooterComponent></FooterComponent>
           </div>
 
