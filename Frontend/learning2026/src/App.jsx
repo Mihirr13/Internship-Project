@@ -13,6 +13,10 @@ import { MapDemo3 } from './component/MapDemo3';
 import { MapDemo4 } from './component/MapDemo4';
 import { MapDemo5 } from './component/MapDemo5';
 import { MapDemo6 } from './component/MapDemo6';
+import { MapDemo7 } from './component/MapDemo7';
+import { MapDemo8 } from './component/MapDemo8';
+import { MapDemo9 } from './component/MapDemo9';
+import { MapDemo10 } from './component/MapDemo10';
 
 function App() {
   return (

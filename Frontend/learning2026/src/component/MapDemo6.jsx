@@ -6,7 +6,7 @@ import Frieren from "../assets/images/Frieren.jpg"
 import Flower from "../assets/images/Flower.jpg"
 import rezero from "../assets/images/rezero.jpg"
 import "../assets/css/demo6.css"
-const products = [
+var products = [
   {
     id: 1,
     name: "One Piece",
@@ -51,6 +51,15 @@ const products = [
     rating: 3.5,
     stock: 0,
     image: Flower
+  },
+  {
+    id: 6,
+    name: "Frieren: Beyond Journey's End",
+    category: "Shonen",
+    price: 1500,
+    rating: 3.9,
+    stock: 8,
+    image: Frieren
   }
 
 ];
