@@ -1,0 +1,48 @@
+body { background: #dde1ec; }
+.content { background: #020617; color: #e5e7eb; }
+.content h5 { color: #38bdf8; }
+
+.fullpage {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  gap : 20px ;
+  padding: auto;
+}
+
+.content {
+  position: relative;
+  flex: 2;
+  background-color: #0f172a;
+  color: #2563eb;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px rgb(63, 178, 245);
+  gap: 20px ;
+}
+
+.content h5 {
+  color: #2563eb;
+  margin-bottom: 8px;
+  font-size: larger;
+}
+
+.content p,
+.content li {
+  color: #4b5563;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.content ul {
+  padding-left: 20px;
+}
+
+.player {
+  flex: 1;
+  background-image: url("../images/tenz.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  box-shadow: 0 0px 15px rgb(63, 178, 245);
+}
