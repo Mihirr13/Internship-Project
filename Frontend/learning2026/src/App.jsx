@@ -7,6 +7,7 @@ import { FooterComponent } from './component/FooterComponent';
 import ContentComponent from './component/ContentComponent';
 import { HeaderComponent } from './component/HeaderComponent';
 import { HeaderComponent1 } from './component/HeaderComponent1';
+import { Home } from './component/Home';
 import { MapDemo1 } from './component/MapDemo1';
 import { MapDemo2 } from './component/MapDemo2';
 import { MapDemo3 } from './component/MapDemo3';
@@ -17,15 +18,29 @@ import { MapDemo7 } from './component/MapDemo7';
 import { MapDemo8 } from './component/MapDemo8';
 import { MapDemo9 } from './component/MapDemo9';
 import { MapDemo10 } from './component/MapDemo10';
+import { Navbar } from './component/Navbar';
+import { Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
           <div>
-            <HeaderComponent1></HeaderComponent1>
-            <MapDemo6></MapDemo6>
-            <FooterComponent></FooterComponent>
-          </div>
+            <Navbar></Navbar>
+            <Routes>
+              <Route path='/home' element={<Home/>}/>
+              <Route path='/mangastore' element={<MapDemo6/>}/>
+              <Route path='/portfolio' element={<ContentComponent/>}/>
+              <Route path='/demo1' element={<MapDemo1/>}/>
+              <Route path='/demo2' element={<MapDemo2/>}/>
+              <Route path='/demo3' element={<MapDemo3/>}/>
+              <Route path='/demo4' element={<MapDemo4/>}/>
+              <Route path='/demo5' element={<MapDemo5/>}/>
+              <Route path='/demo7' element={<MapDemo7/>}/>
+              <Route path='/demo8' element={<MapDemo8/>}/>
+              <Route path='/demo9' element={<MapDemo9/>}/>
+              <Route path='/demo10' element={<MapDemo10/>}/>
 
+            </Routes>
+          </div>
   )
 }
 
