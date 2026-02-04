@@ -20,13 +20,17 @@ import { MapDemo9 } from './component/MapDemo9';
 import { MapDemo10 } from './component/MapDemo10';
 import { Navbar } from './component/Navbar';
 import { Routes,Route } from 'react-router-dom';
+import { Error } from './component/Error';
+import { Movies } from './component/Movies';
+import { Watch } from './component/Watch';
+import { Shows } from './component/Shows';
 
 function App() {
   return (
           <div>
             <Navbar></Navbar>
             <Routes>
-              <Route path='/home' element={<Home/>}/>
+              <Route path='/' element={<Home/>}/>
               <Route path='/mangastore' element={<MapDemo6/>}/>
               <Route path='/portfolio' element={<ContentComponent/>}/>
               <Route path='/demo1' element={<MapDemo1/>}/>
@@ -38,7 +42,10 @@ function App() {
               <Route path='/demo8' element={<MapDemo8/>}/>
               <Route path='/demo9' element={<MapDemo9/>}/>
               <Route path='/demo10' element={<MapDemo10/>}/>
-
+              <Route path='/*' element={<Error/>}></Route>
+              <Route path='/movies' element={<Movies/>}/>
+              <Route path='/watch/:name' element={<Watch/>}/>
+              <Route path="/shows" element={<Shows/>}/>
             </Routes>
           </div>
   )

@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div>
   <nav class="navbar navbar-expand-lg navbar-darkblue bg-dark">
-    <Link class='nav-link' to="/home">Home </Link>
+    <Link class='nav-link' to="/">Home </Link>
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -40,6 +40,12 @@ export const Navbar = () => {
       </li>
          <li class="nav-item active">
         <Link class="nav-link" to="/demo10">Demo10</Link>
+      </li>
+         <li class="nav-item active">
+        <Link class="nav-link" to="/movies">Movies</Link>
+      </li>
+         <li class="nav-item active">
+        <Link class="nav-link" to="/shows">Shows</Link>
       </li>
     </ul>
   </div>
