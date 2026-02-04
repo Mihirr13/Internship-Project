@@ -73,7 +73,7 @@ export const IplTeams = () => {
         {
             teams.map((team)=>
             {
-                return <ul><li> {team.teamname} <Link to={`/details/${team.teamname}`}>
+                return <ul><li> {team.teamname}<Link to={`/details/${team.teamname}`}>
                 <img src={team.logo} alt={team.teamname}></img>
                 <br/>
                 <br/>

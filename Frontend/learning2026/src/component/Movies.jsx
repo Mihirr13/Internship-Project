@@ -26,8 +26,8 @@ export const Movies = () => {
   ];
 
   return (
-    <div style={{backgroundColor:"grey"}}>
-        <h1>Netflix Movies</h1>
+    <div>
+        <h1 style={{color:"red"}}>Netflix Movies</h1>
         {
            movies.map((movie) => {
 

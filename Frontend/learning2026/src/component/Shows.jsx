@@ -5,17 +5,20 @@ export const Shows = () => {
 
   return (
     <div>
-        <h1>Netflix Shows</h1>
+        <h1 style={{color:"red"}}>Netflix Shows</h1>
         <ul>
             <li>
              <Link to="/watch/Stranger Things">   Stranger Things</Link>
-                </li>
+            </li>
+            <br/>
             <li>
                 <Link to="/watch/Dexter"> Dexter</Link>
             </li>
+            <br/>
             <li>
                 <Link to="/watch/Alice in Borderland">Alice in Borederland</Link>
             </li>
+            <br/>
             <li>
                 <Link to="/watch/Squid Game"> Squid Game</Link>
             </li>
