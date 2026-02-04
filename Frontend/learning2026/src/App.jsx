@@ -24,6 +24,8 @@ import { Error } from './component/Error';
 import { Movies } from './component/Movies';
 import { Watch } from './component/Watch';
 import { Shows } from './component/Shows';
+import { Details } from './component/Details';
+import { IplTeams } from './component/IplTeams';
 
 function App() {
   return (
@@ -46,6 +48,8 @@ function App() {
               <Route path='/movies' element={<Movies/>}/>
               <Route path='/watch/:name' element={<Watch/>}/>
               <Route path="/shows" element={<Shows/>}/>
+              <Route path="/details/:name" element={<Details/>}/>
+              <Route path='/iplteams' element={<IplTeams/>}/>
             </Routes>
           </div>
   )

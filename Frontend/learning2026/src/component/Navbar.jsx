@@ -47,6 +47,9 @@ export const Navbar = () => {
          <li class="nav-item active">
         <Link class="nav-link" to="/shows">Shows</Link>
       </li>
+       <li class="nav-item active">
+        <Link class="nav-link" to="/iplteams">IPL Teams</Link>
+      </li>
     </ul>
   </div>
 </nav>
