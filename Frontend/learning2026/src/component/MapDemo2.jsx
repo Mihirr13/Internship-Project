@@ -8,7 +8,7 @@ export const MapDemo2 = () => {
         {id:4 ,name:"Rutvik",age:20, gender:"male"},
     ]
   return (
-    <div>
+    <div style={{color:"antiquewhite"}}>
         {
             users.map((user)=>{
                 return <li>{user.id}-{user.name}-{user.age}-{user.gender}</li>

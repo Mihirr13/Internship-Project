@@ -7,7 +7,7 @@ var products = [
 ];
 export const MapDemo10 = () => {
   return (
-       <div>
+       <div style={{color:"white"}}>
       <h3>Map Demo 10  Filtered Products (Price {">"}500)</h3>
 
       <ul>

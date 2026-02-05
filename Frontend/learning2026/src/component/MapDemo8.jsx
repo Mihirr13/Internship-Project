@@ -7,7 +7,7 @@ var courses = [
 ];
 export const MapDemo8 = () => {
   return (
-    <div>
+    <div style={{color:"antiquewhite"}}>
       <h3>Course Cards</h3>
 
       {courses.map((course) => (
