@@ -5,6 +5,7 @@ export const Navbar = () => {
   return (
     <div>
   <nav class="navbar navbar-expand-lg navbar-darkblue bg-dark">
+    <div style={{color:"red",fontSize:"20px",fontStyle:"bold"}}>NETFLIX </div>
     <Link class='nav-link' to="/">Home </Link>
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -15,7 +16,7 @@ export const Navbar = () => {
         <Link class="nav-link" to="/portfolio">Portfolio</Link>
       </li>
       <li class="nav-item active">
-        <Link class="nav-link" to="/demo1">Demo1</Link>
+        <Link class="nav-link" to="/demo1">Demo1</Link> 
       </li>
       <li class="nav-item active">
         <Link class="nav-link" to="/demo2">Demo2</Link>
