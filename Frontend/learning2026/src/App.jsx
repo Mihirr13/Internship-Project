@@ -26,6 +26,10 @@ import { Watch } from './component/Watch';
 import { Shows } from './component/Shows';
 import { Details } from './component/Details';
 import { IplTeams } from './component/IplTeams';
+import { FunctionDemo1 } from './component/FunctionDemo1';
+import { UseStateDemo1 } from './component/UseStateDemo1';
+import { UseStateDemo2 } from './component/UseStateDemo2';
+import { UseStateDemo3 } from './component/UseStateDemo3';
 
 function App() {
   return (
@@ -50,6 +54,10 @@ function App() {
               <Route path="/shows" element={<Shows/>}/>
               <Route path="/details/:name" element={<Details/>}/>
               <Route path='/iplteams' element={<IplTeams/>}/>
+              <Route path="/functiondemo1" element={<FunctionDemo1/>}/>
+              <Route path="/usestatedemo1" element={<UseStateDemo1/>}/>
+              <Route path="/usestatedemo2" element={<UseStateDemo2/>}/>
+              <Route path="/usestatedemo3" element={<UseStateDemo3/>}/>
             </Routes>
           </div>
   )
