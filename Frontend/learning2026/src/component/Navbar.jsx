@@ -107,6 +107,11 @@ export const Navbar = () => {
               <Link class="nav-link" to="/leaderboard">
                 Leaderboard
               </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/employee">
+                Employees
+              </Link>
             </li>
           </ul>
         </div>

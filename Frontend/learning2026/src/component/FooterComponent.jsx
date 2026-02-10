@@ -3,7 +3,7 @@ import "../assets/css/footer.css"
 export const FooterComponent = () => {
   return (
     <div className='footer'>
-        <h5>ありがとう!!</h5>
+        <h2>ありがとう!!</h2>
     </div>
   )
 }

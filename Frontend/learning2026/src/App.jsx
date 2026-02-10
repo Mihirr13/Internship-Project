@@ -31,6 +31,7 @@ import { UseStateDemo1 } from './component/UseStateDemo1';
 import { UseStateDemo2 } from './component/UseStateDemo2';
 import { UseStateDemo3 } from './component/UseStateDemo3';
 import { Leaderboard } from './component/Leaderboard';
+import { Employees } from './component/Employees';
 
 function App() {
   return (
@@ -60,7 +61,9 @@ function App() {
               <Route path="/usestatedemo2" element={<UseStateDemo2/>}/>
               <Route path="/usestatedemo3" element={<UseStateDemo3/>}/>
               <Route path="/leaderboard" element={<Leaderboard/>}/>
+              <Route path="/employee" element={<Employees/>}/>
             </Routes>
+
           </div>
   )
 }
