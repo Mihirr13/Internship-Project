@@ -113,6 +113,21 @@ export const Navbar = () => {
                 Employees
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/formdemo1">
+                Form1
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/form2">
+                Player Form
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/form3">
+                Ckeckout
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
