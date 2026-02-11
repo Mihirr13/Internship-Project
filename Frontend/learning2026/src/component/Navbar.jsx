@@ -127,6 +127,16 @@ export const Navbar = () => {
               <Link class="nav-link" to="/form3">
                 Ckeckout
               </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/country">
+                Country
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/displayinput">
+                Display
+              </Link>
             </li>
           </ul>
         </div>

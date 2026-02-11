@@ -35,6 +35,8 @@ import { Employees } from './component/Employees';
 import { FormDemo1 } from './component/Forms/FormDemo1';
 import { Form2 } from './component/Forms/Form2';
 import { Form3 } from './component/Forms/Form3';
+import { Country } from './component/Country';
+import { DisplayInput } from './component/input/DisplayInput';
 
 function App() {
   return (
@@ -68,6 +70,8 @@ function App() {
               <Route path="/formdemo1" element={<FormDemo1/>}/>
               <Route path="/form2" element={<Form2/>}/>
               <Route path="/form3" element={<Form3/>}/>
+              <Route path="/country" element={<Country/>}/>
+              <Route path="/displayinput" element={<DisplayInput/>}/>
             </Routes>
 
           </div>

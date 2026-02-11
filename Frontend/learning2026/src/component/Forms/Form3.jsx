@@ -30,7 +30,6 @@ export const Form3 = () => {
     <div className="checkout-container">
       <div className="left-section">
         <form onSubmit={handleSubmit(onSubmit)}>
-          {/* Shipping Info */}
           <div className="card">
             <h2>Shipping Information</h2>
 
@@ -41,7 +40,6 @@ export const Form3 = () => {
             <input {...register("postalCode")} placeholder="Postal Code" />
           </div>
 
-          {/* Payment Details */}
           <div className="card">
             <h2>Payment Details</h2>
 
@@ -119,7 +117,6 @@ export const Form3 = () => {
         </form>
       </div>
 
-      {/* Order Summary */}
       <div className="right-section">
         <div className="summary-card">
           <h2>Order Summary</h2>
