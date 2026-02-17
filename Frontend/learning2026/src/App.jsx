@@ -44,6 +44,8 @@ import { Form5 } from './component/Forms/Form5';
 import { Form6 } from './component/Forms/Form6';
 import { PasswordForm } from './component/Forms/PasswordForm';
 import { ApiDemo1 } from './component/Api/ApiDemo1';
+import { ApiDemo2 } from './component/Api/ApiDemo2';
+import { ApiDemo3 } from './component/Api/ApiDemo3';
 
 function App() {
   return (
@@ -86,6 +88,8 @@ function App() {
               <Route path="/form6" element={<Form6/>}/>
               <Route path="/passwordform" element={<PasswordForm/>}/>
               <Route path="/apidemo1" element={<ApiDemo1/>}/>
+              <Route path="/apidemo2" element={<ApiDemo2/>}/>
+              <Route path="/apidemo3" element={<ApiDemo3/>}/>
 
             </Routes>
 
