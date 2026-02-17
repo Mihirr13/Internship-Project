@@ -8,10 +8,10 @@ export const PasswordForm = () => {
     handleSubmit,
     formState: { errors },
     watch,
-  } = useForm({ mode: "onchange" });
+  } = useForm({ mode: "onChange" });
   console.log("errors...", errors);
 
-  const password = watch("password");
+  const password = watch("password") || "";
   console.log("watching...", password);
 
   const submithandler = (data) => {

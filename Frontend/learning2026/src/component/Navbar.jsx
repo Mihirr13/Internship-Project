@@ -8,9 +8,9 @@ export const Navbar = () => {
         <div style={{ color: "red", fontSize: "20px", fontStyle: "bold" }}>
           NETFLIX{" "}
         </div>
-        <Link class="nav-link" to="/">
+        {/* <Link class="nav-link" to="/">
           Home{" "}
-        </Link>
+        </Link> */}
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
