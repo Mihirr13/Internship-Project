@@ -26,6 +26,17 @@ export const ApiDemo2 = () => {
             <th>title</th>
             <th>price</th>
             <th>rating</th>
+            <th>tags</th>
+            <th>brand</th>
+            <th>sku</th>
+            <th>Weight</th>
+            <th>Dimentions (width x height x depth)</th>
+            <th colSpan={"2"}>Reviews
+              <tr>
+              <th>rating </th>
+              <th>comment</th>
+              </tr>
+              </th>
           </tr>
         </thead>
         <tbody>
@@ -36,6 +47,28 @@ export const ApiDemo2 = () => {
                 <td>{user.title}</td>
                 <td>{user.price}</td>
                 <td>{user.rating}</td>
+                {/* printing multiple tags */}
+                <td>{user.tags.join(" ,")}</td>
+                <td>{user.brand}</td>
+                <td>{user.sku}</td>
+                <td>{user.weight}</td>
+                {/* printing dimentions width height and depth */}
+                <td>
+                  {user.dimensions.width}x {user.dimensions.height}x{" "}
+                  {user.dimensions.depth}x{" "}
+                </td>
+                {/* printing review (array inside array) */}
+                <td>
+                  {
+                    user.reviews.map((review) => {
+                      return <tr>
+                        <td>{review.rating}</td>
+                        <td>{review.comment}</td>
+                      </tr>
+                      
+                    })
+                  }
+                </td>
               </tr>
             );
           })}
