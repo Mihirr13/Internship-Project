@@ -1,0 +1,9 @@
+.detail{
+    text-align: center;
+    color: skyblue;
+}
+.detail img{
+    height: 200px;
+    width: auto;
+    align-items: center;
+}

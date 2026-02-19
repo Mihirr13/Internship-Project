@@ -183,6 +183,16 @@ export const Navbar = () => {
                 API 3
               </Link>
               </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/omdb" style={{color:"yellow"}}>
+                Omdb
+              </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/imdb" style={{color:"yellow"}}>
+                IMDB
+              </Link>
+              </li>
           </ul>
         </div>
       </nav>

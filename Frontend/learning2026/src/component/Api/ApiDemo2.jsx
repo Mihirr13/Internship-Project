@@ -55,7 +55,7 @@ export const ApiDemo2 = () => {
                 {/* printing dimentions width height and depth */}
                 <td>
                   {user.dimensions.width}x {user.dimensions.height}x{" "}
-                  {user.dimensions.depth}x{" "}
+                  {user.dimensions.depth}{" "}
                 </td>
                 {/* printing review (array inside array) */}
                 <td>

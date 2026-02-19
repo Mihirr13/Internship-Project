@@ -46,6 +46,9 @@ import { PasswordForm } from './component/Forms/PasswordForm';
 import { ApiDemo1 } from './component/Api/ApiDemo1';
 import { ApiDemo2 } from './component/Api/ApiDemo2';
 import { ApiDemo3 } from './component/Api/ApiDemo3';
+import { ApiOmdb } from './component/Api/ApiOmdb';
+import { Imdb } from './component/Api/Imdb';
+import { MovieDetails } from './component/Api/MovieDetails';
 
 function App() {
   return (
@@ -90,6 +93,11 @@ function App() {
               <Route path="/apidemo1" element={<ApiDemo1/>}/>
               <Route path="/apidemo2" element={<ApiDemo2/>}/>
               <Route path="/apidemo3" element={<ApiDemo3/>}/>
+              <Route path="/omdb" element={<ApiOmdb/>}/>
+              <Route path="/imdb" element={<Imdb/>}/>
+              <Route path="/movied/:name" element={<MovieDetails/>}/>
+
+              
 
             </Routes>
 
