@@ -193,6 +193,11 @@ export const Navbar = () => {
                 IMDB
               </Link>
               </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/postapidemo1" style={{color:"yellow"}}>
+                Post Api
+              </Link>
+              </li>
           </ul>
         </div>
       </nav>
