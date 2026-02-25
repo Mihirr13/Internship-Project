@@ -99,7 +99,7 @@ function App() {
               <Route path="/movied/:name" element={<MovieDetails/>}/>
               <Route path="/postapidemo1" element={<ApiPostDemo1/>}/>
 
-              
+  
 
             </Routes>
 
